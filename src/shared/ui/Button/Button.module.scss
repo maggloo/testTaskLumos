@@ -1,0 +1,14 @@
+.button {
+  background-color: var(--orange);
+  width: 316px;
+  height: 64px;
+  color: var(--white);
+  font-size: var(--font-title-2);
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--orange-light);
+  }
+}
