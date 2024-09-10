@@ -1,0 +1,47 @@
+:root {
+  --font-family-main: "Poppins", sans-serif;
+  --font-family-secondary: "Roboto", sans-serif;
+  /* colors */
+
+  --blue: #3177F2;
+  --orange: #FF5D17;
+  --orange-light: #FF8317;
+  --black: #2B2B2B;
+  --grey: #646464;
+  --white: #FFFFFF;
+
+  /* text */
+  --font-large-title: 700 32px / 46px var(--font-family-main);
+  --font-title-1: 700 28px / 34px var(--font-family-main);
+  --font-title-2: 700 24px / 32px var(--font-family-main);
+  --font-subtitle: 600 16px / 24px var(--font-family-main);
+  --font-body: 500 16px / 24px var(--font-family-main);
+  --font-text: 600 14px / 18px var(--font-family-main);
+  --font-capture: 400 14px / 18px var(--font-family-secondary);
+  --font-footnote: 500 13px / 18px var(--font-family-main);
+}
+
+html,
+body {
+  font-family: var(--font-family-main);
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: var(--black);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
