@@ -2,10 +2,10 @@ import React from 'react';
 import Image from 'next/image'
 import img from '../../shared/images/image_main.png'
 import cls from './Main.module.scss'
-import {LeftIcon} from "@/shared/images/left";
-import {RightIcon} from "@/shared/images/right";
 import {ButtonComponent} from "@/shared/ui/Button";
 import {InfoItems} from "@/components/infoItems/InfoItems";
+import {LeftIcon} from "@/shared/icons/left";
+import {RightIcon} from "@/shared/icons/right";
 
 
 export const Main = () => {
