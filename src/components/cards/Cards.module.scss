@@ -1,0 +1,13 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 80px;
+  width: 100%;
+  justify-items: center;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 5px;
+  }
+}
+

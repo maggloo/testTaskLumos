@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 24px;
+
+  .title {
+    font: var(--font-large-title);
+    width: 396px;
+    height: 138px;
+    text-align: center;
+
+    .accent {
+      color: var(--blue);
+    }
+  }
+
+  .button {
+    font: var(--font-title-2);
+  }
+
+  .users_number {
+    color: var(--blue);
+    display: flex;
+    gap: 8px;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .note {
+        font: var(--font-capture);
+      }
+      .accent {
+        font: var(--font-text);
+      }
+    }
+  }
+
+  .small_text {
+    font: var(--font-body);
+    text-align: center;
+  }
+
+  .small_accent {
+    color: var(--blue);
+  }
+}

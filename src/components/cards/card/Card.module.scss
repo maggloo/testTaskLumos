@@ -1,0 +1,37 @@
+.card {
+  height: 216px;
+  width: 424px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid var(--grey);
+
+  .accent {
+    font: var(--font-title-1);
+    color: var(--orange);
+    text-transform: uppercase;
+  }
+  .text {
+    font: var(--font-title-1);
+    color: var(--blue);
+    text-transform: uppercase;
+  }
+  .content {
+    font: var(--font-subtitle);
+    color: var(--grey);
+  }
+
+  &:nth-child(-n+2) {
+    border-top: 1px solid var(--grey);
+  }
+
+  @media (max-width: 768px) {
+    &:nth-child(1) {
+      border-top: 1px solid var(--grey);
+    }
+
+    width: 300px;
+  }
+}

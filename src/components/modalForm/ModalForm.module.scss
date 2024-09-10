@@ -1,0 +1,22 @@
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+
+  .icon {
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+  }
+  .name {
+    font: var(--font-body);
+  }
+  .note {
+    color: var(--grey);
+    font: var(--font-footnote);
+  }
+  .button {
+    width: 100%;
+  }
+}
