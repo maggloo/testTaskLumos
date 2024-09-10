@@ -2,7 +2,6 @@ import Cards from "@/components/cards/Cards";
 import Form, {UserType} from "@/components/form/Form";
 import {Main} from "@/components/main/Main";
 
-
 type ResponseType = {
     results: UserType[]
 }
