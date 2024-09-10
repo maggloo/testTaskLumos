@@ -3,7 +3,7 @@ import cls from "./ModalForm.module.scss";
 import {InputComponent} from "@/shared/ui/Input";
 import {ButtonComponent} from "@/shared/ui/Button";
 import {UserType} from "@/components/form/Form";
-import {CloseIcon} from "@/shared/images/close";
+import {CloseIcon} from "@/shared/icons/close";
 
 type ModalFormPropsType = {
     currentUser: UserType | undefined

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import cls from './Header.module.scss';
-import {LogoIcon} from "@/shared/images/logo";
 import {ButtonComponent} from "@/shared/ui/Button";
+import {LogoIcon} from "@/shared/icons/logo";
 export const Header = () => {
     return (
         <header className={cls.header}>

@@ -1,10 +1,11 @@
 import React from 'react';
 import Card from "@/components/cards/card/Card";
-import {EyeIcon} from "@/shared/images/eye";
-import {SpeedIcon} from "@/shared/images/speed";
-import {LocationIconType} from "@/shared/images/location_type";
-import {BlockedIcon} from "@/shared/images/blocked";
+
 import cls from './Cards.module.scss'
+import {EyeIcon} from "@/shared/icons/eye";
+import {SpeedIcon} from "@/shared/icons/speed";
+import {LocationIconType} from "@/shared/icons/location_type";
+import {BlockedIcon} from "@/shared/icons/blocked";
 
 
 const cardsInfo = [

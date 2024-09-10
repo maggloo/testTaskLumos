@@ -1,8 +1,8 @@
 import React from 'react';
-import {LocationIcon} from "@/shared/images/location";
-import {HierarchyIcon} from "@/shared/images/hierarchy";
 import InfoItem from "@/components/infoItems/info/InfoItem";
 import cls from './InfoItems.module.scss'
+import {LocationIcon} from "@/shared/icons/location";
+import {HierarchyIcon} from "@/shared/icons/hierarchy";
 
 const items = [
     {
